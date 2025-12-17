@@ -4,6 +4,9 @@ title: Hobbies
 permalink: /hobbies/
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/footer.css' | relative_url }}">
+
 ## My Hobbies
 
 ### Coding & Technology

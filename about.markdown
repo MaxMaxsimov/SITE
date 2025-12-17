@@ -4,6 +4,9 @@ title: About
 permalink: /about/
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/footer.css' | relative_url }}">
+
 ## About Me
 
 Hi! I'm a student in the SITE program, learning web development, software engineering, and computer science fundamentals. I'm passionate about creating meaningful digital experiences and solving problems through code.

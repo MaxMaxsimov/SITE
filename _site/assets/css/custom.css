@@ -1,0 +1,185 @@
+/* Custom CSS for Blockchain/Cybersecurity Theme */
+:root {
+  --primary-color: #00d4aa;
+  --secondary-color: #1a2332;
+  --dark-bg: #0f1419;
+  --card-bg: #1e2a3a;
+  --text-light: #ffffff;
+  --text-muted: #8892b0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--dark-bg) !important;
+  color: var(--text-light) !important;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.6;
+}
+
+.page-content {
+  background: var(--dark-bg) !important;
+}
+
+.wrapper {
+  background: var(--dark-bg) !important;
+}
+
+.home {
+  background: var(--dark-bg) !important;
+}
+
+.post-list-heading, .page-heading {
+  color: var(--primary-color) !important;
+}
+
+.post-list .post-link {
+  color: var(--text-light) !important;
+}
+
+.post-list .post-link:hover {
+  color: var(--primary-color) !important;
+}
+
+.post-meta {
+  color: var(--text-muted) !important;
+}
+
+p {
+  color: var(--text-light) !important;
+}
+
+/* Header */
+.site-header {
+  background: var(--secondary-color);
+  border-bottom: 1px solid var(--primary-color);
+  padding: 1rem 0;
+}
+
+.site-title {
+  color: var(--primary-color) !important;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.site-nav .page-link {
+  color: var(--text-light) !important;
+  transition: color 0.3s ease;
+}
+
+.site-nav .page-link:hover {
+  color: var(--primary-color) !important;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, var(--dark-bg) 0%, var(--secondary-color) 100%);
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  background: linear-gradient(45deg, var(--primary-color), #64ffda);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: var(--text-muted);
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.btn-primary {
+  background: var(--primary-color);
+  color: var(--dark-bg);
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: #00b894;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0, 212, 170, 0.3);
+}
+
+/* Cards */
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 4rem 0;
+}
+
+.feature-card {
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 212, 170, 0.2);
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--primary-color);
+  box-shadow: 0 20px 40px rgba(0, 212, 170, 0.1);
+}
+
+.feature-icon {
+  width: 60px;
+  height: 60px;
+  background: var(--primary-color);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: var(--dark-bg);
+}
+
+.feature-card h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.feature-card p {
+  color: var(--text-muted);
+}
+
+/* Footer */
+.site-footer {
+  background: var(--secondary-color);
+  border-top: 1px solid var(--primary-color);
+  color: var(--text-muted);
+}
+
+.footer-heading {
+  color: var(--primary-color);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+  
+  .features {
+    grid-template-columns: 1fr;
+  }
+}
