@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat Formatter</title>
+</head>
+<body>
+    <h2>Chat Export Formatter</h2>
+    <textarea id="input" placeholder="Paste your chat here..." rows="10" cols="80"></textarea><br>
+    <button onclick="formatChat()">Format as JSON</button>
+    <button onclick="downloadText()">Download as Text</button>
+    <pre id="output"></pre>
+
+    <script>
+    function formatChat() {
+        const text = document.getElementById('input').value;
+        const formatted = {
+            exportDate: new Date().toISOString(),
+            content: text,
+            wordCount: text.split(' ').length
+        };
+        document.getElementById('output').textContent = JSON.stringify(formatted, null, 2);
+    }
+    
+    function downloadText() {
+        const text = document.getElementById('input').value;
+        const blob = new Blob([text], {type: 'text/plain'});
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'chat-export.txt';
+        a.click();
+    }
+    </script>
+</body>
+</html>

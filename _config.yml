@@ -18,21 +18,27 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: SITE project 3
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+  This is my third site project for the SITE program.
+  It is built with Jekyll and hosted on GitHub Pages.
+baseurl: "/Project_3" # the subpath of your site, e.g. /blog
+url: "https://github.com/MaxMaxsimov/SITE" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: 
+github_username:  MaxMaxsimov
+codecademy_username: Max_Maxsimov
+repository: MaxMaxsimov/Project_3
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
+header_pages:
+  - index.markdown
+  - about.markdown
+  - hobbies.markdown
+  - projects.markdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -1,6 +1,6 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
+title: Home
 ---
+
+Welcome to my personal website! I'm a student in the SITE program, passionate about web development and software engineering. This site showcases my journey and projects as I learn and grow in the field of technology.
