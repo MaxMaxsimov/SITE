@@ -22,7 +22,7 @@ title: SITE project 3
 description: >- # this means to ignore newlines until "baseurl:"
   This is my third site project for the SITE program.
   It is built with Jekyll and hosted on GitHub Pages.
-baseurl: / # the subpath of your site, e.g. /blog
+baseurl: /SITE # the subpath of your site, e.g. /blog
 url: https://maxmaxsimov.github.io # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  MaxMaxsimov

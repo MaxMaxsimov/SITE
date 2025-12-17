@@ -11,11 +11,11 @@ permalink: /projects/
 
 ### Project 1: Personal Portfolio Website
 
-![Portfolio Website](/Project_3/assets/images/4.png){:width="500px"}
+![Portfolio Website Home Page]({{ '/assets/images/portfolio-website-home.png' | relative_url }}){:width="500px"}
 
-![Portfolio Website](/Project_3/assets/images/5.png){:width="500px"}
+![Portfolio Website Projects Page]({{ '/assets/images/portfolio-website-projects.png' | relative_url }}){:width="500px"}
 
-![Portfolio Website](/Project_3/assets/images/6.png){:width="500px"}
+![Portfolio Website About Page]({{ '/assets/images/portfolio-website-about.png' | relative_url }}){:width="500px"}
 
 **Description:** My first SITE program project - a personal portfolio website showcasing my web development skills and projects. This project demonstrates my ability to create clean, professional websites using modern web technologies.
 
@@ -39,11 +39,11 @@ permalink: /projects/
 
 ### Project 2: CS Education Week 2025 - Teaching Programming to Students
 
-![Students with certificates](/Project_3/assets/images/1.png){:width="500px"}
+![Students with certificates]({{ '/assets/images/cs-education-students-certificates.png' | relative_url }}){:width="500px"}
 
-![Teaching session](/Project_3/assets/images/2.png){:width="500px"}
+![Teaching session]({{ '/assets/images/cs-education-teaching-session.png' | relative_url }}){:width="500px"}
 
-![Classroom learning](/Project_3/assets/images/3.png){:width="500px"}
+![Classroom learning]({{ '/assets/images/cs-education-classroom-learning.png' | relative_url }}){:width="500px"}
 
 **Description:** During CS Education Week 2025, I had the opportunity to teach programming concepts to students. This project involved creating engaging lessons, interactive coding exercises, and helping students earn their certificates of completion. It was a rewarding experience to introduce young learners to the world of computer science.
 
