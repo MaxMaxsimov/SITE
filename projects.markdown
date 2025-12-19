@@ -9,7 +9,7 @@ permalink: /projects/
 
 ## My Projects
 
-### Project 1: Personal Portfolio Website
+### Project 1: Basic Logic Gates
 
 ![Portfolio Website Home Page]({{ '/assets/images/portfolio-website-home.png' | relative_url }}){:width="500px"}
 
@@ -17,9 +17,9 @@ permalink: /projects/
 
 ![Portfolio Website About Page]({{ '/assets/images/portfolio-website-about.png' | relative_url }}){:width="500px"}
 
-**Description:** My first SITE program project - a personal portfolio website showcasing my web development skills and projects. This project demonstrates my ability to create clean, professional websites using modern web technologies.
+**Description:** My first SITE program project - a basic logic gates simulator showcasing fundamental digital logic concepts. This project demonstrates my understanding of Boolean algebra, logic gates (AND, OR, NOT, NAND, NOR, XOR), and digital circuit design principles.
 
-**Technologies Used:** HTML5, CSS3, JavaScript, Bootstrap
+**Technologies Used:** Arduino , Brain , and some nerve cells
 
 **Key Features:**
 - Clean and professional design
