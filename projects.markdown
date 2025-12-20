@@ -22,12 +22,10 @@ permalink: /projects/
 **Technologies Used:** Arduino , Brain , and some nerve cells
 
 **Key Features:**
-- Clean and professional design
-- Mobile-responsive layout
-- Project portfolio showcase
-- About me section
-- Skills and experience display
-- Contact information
+- Understanding Logic Gates
+- Building Logic gates via arduino plates
+- Understanding boolean logic
+- Collobaration with team members and other teams
 
 **Video:**
 
